@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: block;
+    min-height: 100vh;
+    background: url("/Images/background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    margin: 1%;
+    padding: 1%;
+    border: none;
+    outline: none;
+    backdrop-filter: blur(20px);
+    backdrop-filter: transparent;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.input-fields,
+label,
+input {
+    display: block;
+    margin-left: 0;
+    padding: 0;
+}
+
+label {
+    color: #fff;
+    font-size: larger;
+    padding-left: 5px;
+    margin: 5px;
+}
+
+input,
+textarea {
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    margin: 5px;
+    padding-left: 10px;
+    color: #000;
+}
+
+input, textarea::placeholder {
+    color: #333;
+}
+
+textarea {
+    height: 100px;
+    width: 30%;
+    resize: none;
+}
+
+.wrapper button {
+    margin: 10px;
+    height: 30px;
+    width: 30%;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+table {
+    display: block;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 1% 5%;
+    border: none;
+    outline: none;
+}
+
+th {
+    color: #000;
+    padding: 10px;
+    width: 5%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+td {
+    color: #fff;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    font-weight: 700;
+}
+
+td button {
+    margin: 10px;
+    height: 30px;
+    width: 30%;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}

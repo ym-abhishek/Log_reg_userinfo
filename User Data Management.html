@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data Management</title>
+    <link rel="stylesheet" href="User Data Management.css">
+    <script src="User Data Management.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>User Data Management
+            <hr>
+        </h1>
+        <div class="input-fields">
+            <label for="name-input">Name</label>
+            <input type="text" id="name-input" placeholder="Enter your name">
+            <label for="email-input">e-mail</label>
+            <input type="email" id="email-input" placeholder="Enter your email">
+            <label for="contact-input">Contact Number</label>
+            <input type="tel" id="contact-input" placeholder="Enter you number">
+            <label for="address-input">Address</label>
+            <textarea name="address-input" id="address-input" placeholder="Enter your address"></textarea>
+        </div>
+
+        <button type="submit" onclick="addData()">Add Data</button>
+    </div>
+
+    <table id="outputTable">
+        <tr>
+            <th>Name</th>
+            <th>e-mail</th>
+            <th>Contact Number</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+    </table>
+
+</body>
+
+</html>

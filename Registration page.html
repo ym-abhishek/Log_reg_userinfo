@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="Registration page.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="User Data Management.html">
+            <h1>Sign up</h1>
+            <div class="input-box">
+                <input type="text" placeholder="First name*" required>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Last name*" required>
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="e-mail*" id="email" required>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" id="password" required>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder=" Confirm Password" id="repassword" pattern="/^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])\S{8,}$/"
+                    title="The password must contain atleast one capital letter, one small letter, number and a period(.)"
+                    required>
+            </div>
+            <div class="termsconditions">
+                <label> <input type="checkbox" required>I Accept the Terms of use & Privacy
+                    Policy</label>
+            </div>
+            <button type="submit" class="btn">Sign up</button>
+            <div class="login-link">
+                <p>Already have an account? <a href="Login page.html">Login</a></p>
+            </div>
+            <script src="authentication.js"></script>
+        </form>
+    </div>
+</body>
+
+</html>
